@@ -16,5 +16,5 @@
 
 ## Ruby世界：Rack及其它十例（4）
 <http://www.lycom.de/past/2012/7/15/rack-2012-07-15-0053/>
-  * demo_5
-  * 文件顺序：红;橙
+  * demo_5, demo_6, demo_7
+  * 文件顺序：红;橙;黄;绿

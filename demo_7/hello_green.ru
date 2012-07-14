@@ -1,4 +1,4 @@
-# hello_yellow.ru
+# hello_green.ru
 @root = File.expand_path(File.dirname(__FILE__))
 
 home = lambda do |env|
