@@ -23,3 +23,8 @@
 <http://www.lycom.de/past/2012/7/16/rack-2012-07-16-0053/>
   * demo_8
   * 文件顺序：红;橙;黄;绿
+
+## Ruby世界：Rack及其它十例（5）--使用第三方Rack中间件
+<http://www.lycom.de/past/2012/7/16/rack-2012-07-16-0053/>
+  * demo_9
+  * 文件顺序：红;橙;黄;绿
