@@ -33,3 +33,8 @@
 <http://www.lycom.de/past/2012/7/22/rack-2012-07-22-0053/>
   * demo_a, demo_b
   * 文件顺序：红;橙;黄
+
+## Ruby世界：Rack及其它十例（8）--写视图文件
+<http://www.lycom.de/past/2012/7/23/rack-2012-07-23-0053/>
+  * demo_c, demo_d
+  * 文件顺序：红;橙;黄

@@ -12,7 +12,6 @@ end
 
 home = lambda { |env| [200, {}, ["Hello Orange!"]] }
 
-use Rack::ContentLength
 use ContentTypePlain
 
 map '/' do
