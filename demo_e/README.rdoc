@@ -1,0 +1,35 @@
+== Create New Rails App
+*　rails new demo_z 
+* cd demo_z
+* rails g scaffold post title body:text published:boolean
+* rake db:migrate
+* rake db:fixtures:load
+
+== Install gem rack-codehighlighter
+*　gem install rack-codehighlighter
+
+== Config gem in Rails App
+*　vim Gemfile
+** gem 'coderay'
+** gem 'rack-codehighlighter', :require => 'rack/codehighlighter'
+* bundle update
+* rake middleware
+* vim config/environments/development.rb
+** config.middleware.use Rack::Codehighlighter, :coderay,
+  :element => "pre", :pattern => /\A:::(\w+)\s*(\n|&#x000A;)/i, :logging => false
+* rake middleware
+
+== Using gem in Rails App
+* vim app/views/posts/index.html.erb
+** <pre>:::ruby
+# File activesupport/lib/active_support/core_ext/array/access.rb, line 28
+def third
+  self[2]
+end
+</pre>
+* curl -o ./app/assets/stylesheets/coderay.scss https://raw.github.com/wbzyl/rack-codehighlighter/master/examples/public/stylesheets/coderay.css
+* curl -o ./app/assets/stylesheets/syntax.scss https://raw.github.com/wbzyl/rack-codehighlighter/master/examples/public/stylesheets/syntax.css
+
+== Run Rails App
+* rails s
+* open http://0.0.0.0:3000/posts

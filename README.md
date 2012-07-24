@@ -38,3 +38,8 @@
 <http://www.lycom.de/past/2012/7/23/rack-2012-07-23-0053/>
   * demo_c, demo_d
   * 文件顺序：红;橙;黄
+
+## Ruby世界：Rack及其它十例（9）--与Rails在一起
+<http://www.lycom.de/past/2012/7/23/rack-2012-07-23-0053/>
+  * demo_e
+  * 文件顺序：红
