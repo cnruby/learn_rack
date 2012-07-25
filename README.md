@@ -26,8 +26,8 @@
 
 ## Ruby世界：Rack及其它十例（6）--使用第三方Rack中间件
 <http://www.lycom.de/past/2012/7/18/rack-2012-07-18-0053/>
-  * demo_9
-  * 文件顺序：红;橙;黄;绿
+  * demo_9, demo_z
+  * 文件顺序：红;橙
 
 ## Ruby世界：Rack及其它十例（７）--写自己Rack中间件
 <http://www.lycom.de/past/2012/7/22/rack-2012-07-22-0053/>
