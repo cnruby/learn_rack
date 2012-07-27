@@ -43,3 +43,8 @@
 <http://www.lycom.de/past/2012/7/25/rack-2012-07-25-0053/>
   * demo_e
   * 文件顺序：红
+
+## Ruby世界：Rack及其它十例（10）--交互终端界面
+<http://www.lycom.de/past/2012/7/28/rack-2012-07-28-0053/>
+  * demo_f
+  * 文件顺序：红

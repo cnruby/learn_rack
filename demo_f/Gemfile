@@ -1,4 +1,4 @@
 # Gemfile
 source 'http://rubygems.org'
 gem 'rack'
-gem 'rack-google_analytics'
+gem 'racksh'
